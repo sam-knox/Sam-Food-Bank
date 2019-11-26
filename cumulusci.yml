@@ -16,3 +16,12 @@ tasks:
         options:
             path: robot/Sam-Food-Bank/tests
             output: robot/Sam-Food-Bank/doc/Sam-Food-Bank_tests.html
+flows:
+    config_qa:
+        steps:
+            3:
+                task: load_dataset
+    config_dev:
+        steps:
+            3:
+                task: load_dataset

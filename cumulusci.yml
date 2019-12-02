@@ -2,7 +2,8 @@ minimum_cumulusci_version: '3.1.2'
 project:
     name: Sam-Food-Bank
     package:
-        name:  Food Banks Sam K
+        name:  Sam-Food-Bank
+        namespace: Proj3CCI
         api_version: '47.0'
 
 tasks:
